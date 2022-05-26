@@ -1,0 +1,2 @@
+id,status,user_exit_code,command,gpu,git_commit_hash,github_url,description,docker_image,created_at,started_at,ended_at,pip_packages,apt_packages,attached_resources,environment_vars,already_existed,labels
+2075,complete,0,python models/wandb_train.py,v100,32565392ffc34349f49b4886e714c1a52dd6099c,https://github.com/spellml/cnn-cifar10,,,2022-05-16 15:46:00.130525+00:00,2022-05-16 15:50:50.274377+00:00,2022-05-16 15:59:57.408161+00:00,[],[],{},{},False,[]

@@ -1,0 +1,32 @@
+id,name,model_id,version,creator,created_at,resource
+3,paint_with_ml,3,v1,Aleksey Bilogur,2020-09-15 15:50:58.862203+00:00,runs/1011
+4,print-date-and-time,4,v1,Waldo Lin,2020-10-09 16:25:56.820460+00:00,uploads/examples
+7,coconet-sampler,7,v1,Waldo Lin,2020-11-10 18:51:50.388321+00:00,uploads/coconet-model
+8,coconet-sampler-2,8,v1,Waldo Lin,2020-11-10 18:53:51.091417+00:00,uploads/coconet-model
+9,test,9,v1,Trey Lawrence,2020-12-11 22:22:11.538410+00:00,runs/971
+12,churn-prediction,12,v1,Aleksey Bilogur,2021-02-05 22:18:20.271427+00:00,runs/1203
+1,cifar,1,v2,Trey Lawrence,2021-02-09 18:30:40.035036+00:00,runs/16
+1,cifar,1,v1,Ian Vonseggern,2020-09-04 19:39:35.562628+00:00,runs/16
+14,cifar10-example,14,v1,Aleksey Bilogur,2021-04-22 18:48:26.792185+00:00,runs/951
+13,spell-employees-test,13,v1,Ian Vonseggern,2021-03-02 17:14:54.577165+00:00,uploads/waldo
+10,spell-employees,10,v8,Waldo Lin,2021-05-18 16:01:22.357908+00:00,uploads/waldo3
+10,spell-employees,10,v7,Waldo Lin,2021-05-18 16:00:05.479548+00:00,uploads/waldo3
+10,spell-employees,10,v6,Waldo Lin,2021-05-18 15:58:44.965113+00:00,uploads/waldo-2
+10,spell-employees,10,v5,Waldo Lin,2021-05-18 15:57:46.414650+00:00,uploads/waldo-2
+10,spell-employees,10,v4,Waldo Lin,2021-03-02 16:45:44.851700+00:00,uploads/waldo
+10,spell-employees,10,v1,Waldo Lin,2021-01-26 17:50:46.140049+00:00,uploads/serving
+15,cifar10-demo,15,v1,kevin,2021-08-03 22:05:30.058004+00:00,runs/1560
+16,cifar10-model,16,v1,kevin,2021-10-01 20:47:02.801894+00:00,runs/1712
+17,cifar10-test,17,v1,kevin,2021-10-12 15:08:29.123035+00:00,runs/1714
+19,testmodel,19,v1,kevin,2021-12-15 23:14:20.835222+00:00,runs/1710
+6,cifar10,6,v13,Trey Lawrence,2022-02-24 17:42:18.525664+00:00,runs/16
+6,cifar10,6,v12,Trey Lawrence,2021-10-05 14:53:42.183496+00:00,runs/16
+6,cifar10,6,v11,Trey Lawrence,2021-09-08 16:37:53.882952+00:00,runs/15
+6,cifar10,6,v10,Trey Lawrence,2021-08-18 17:34:02.743146+00:00,runs/16
+6,cifar10,6,v9,Trey Lawrence,2021-07-29 18:30:09.845282+00:00,runs/21
+6,cifar10,6,v8,Trey Lawrence,2021-06-29 15:43:55.547560+00:00,runs/16
+6,cifar10,6,v7,Trey Lawrence,2021-06-09 16:37:00.432514+00:00,runs/1439
+6,cifar10,6,v5,Trey Lawrence,2021-04-16 19:54:04.670998+00:00,runs/16
+6,cifar10,6,v3,Trey Lawrence,2021-03-11 18:53:06.303090+00:00,runs/16
+6,cifar10,6,v2,Trey Lawrence,2021-02-05 19:40:43.570183+00:00,runs/16
+6,cifar10,6,v1,Aleksey Bilogur,2020-10-19 20:29:03.723256+00:00,runs/952

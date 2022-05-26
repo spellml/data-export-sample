@@ -1,0 +1,25 @@
+id,name,description,gpu,is_lab,attached_resources,environment,creator
+5,genomics-hackathon,,cpu,False,{'public/image/mnist': '/spell/data'},{},peter
+8,StockPredictionAI,,t4,True,"{'public/image/cifar-10-python': '/spell/cifar-10-python', 'public/text/enron': '/spell/enron', 'runs/30': '/spell/30'}","{'pip': ['seaborn', 'tqdm']}",annk
+12,alphafold,,cpu,True,"{'runs/423': '/spell/423', 'runs/425': '/spell/425'}","{'pip': ['absl-py==0.8.1', 'dm-sonnet==1.35', 'numpy==1.16', 'setuptools==41.0.0', 'six==1.12', 'tensorflow-probability==0.7.0', 'tensorflow==1.14']}",serkan
+16,mnist-training,,k80,True,,{},peter
+31,cirrascale-workspace,,cirrascale-demo,True,"{'public/face/CelebA': '/spell/CelebA', 'uploads/guitar_chords/chords/c_chord.m4a': '/spell/c_chord.m4a'}",{},waldo
+34,cirrascale-nb,,cirrascale-demo,True,,{},bensussman
+50,cirrascale,,Titanx8,True,,{},trey
+52,cnn-cifar10,,t4,True,,{},aleksey
+53,xgboost-liberty-mutual,,cpu,True,"{'runs/982': '/spell/982', 'runs/991': '/spell/991', 'runs/998': '/spell/998', 's3/spell-org-data': '/spell/spell-org-data', 's3/spell-waldo-aws': '/spell/spell-waldo-aws'}",{},aleksey
+54,fbprophet-demo,,cpu,True,,"{'pip': ['fbprophet', 'plotly', 'pystan']}",serkan
+56,magenta,,t4,True,{'runs/1094': '/spell/1094'},{},waldo
+60,Graphcloud,,cpu,True,{'s3/spell-org-data/data': '/spell/data'},{'docker_image': 'graphcore/pytorch:latest'},serkan
+62,Sonic-Dreams,,t4,True,"{'runs/1383': '/spell/1383', 'uploads/sonic-dreams': '/spell/sonic-dreams'}",{},serkan
+63,kushagra,,cpu,True,"{'runs/1329': '/spell/1329', 's3/spell-org-data/data': '/spell/data'}",{},serkan
+67,mnist,,cpu,True,,{},trey
+69,z8-test,,z100,True,,{},serkan
+75,spelldemo-cifar10,,t4,True,"{'s3/spell-org-data': '/spell/data', 's3/spelldemo-cifar10': '/spell/spelldemo-cifar10'}",{'pip': ['xeus-python']},kevin
+78,R-Kernal,,cpu,True,,{'docker_image': 'jupyter/r-notebook:latest'},trey
+80,nytimes-cooking,,cpu,True,"{'runs/1771': '/spell/1771', 'runs/1883': '/spell/1883', 'runs/1889': '/spell/1889', 's3/spell-org-data/data': '/spell/data', 's3/spell-org-data/data/14.txt': '/spell/14.txt', 's3/spelldemo-cifar10/cifar-10-batches-py': '/spell/cifar-10-batches-py', 'uploads/waldo3': '/spell/waldo3'}",{},serkan
+83,with-tensorboard,,cpu,True,,{},trey
+93,hi,,cpu,True,,{},sruthi
+94,workspace-conda-test,,cpu,True,,"{'pip': ['git+https://github.com/spellml/private-pip-test'], 'conda_env_file': 'channels:\n- conda-forge\ndependencies:\n- python=3.9\n- geopandas\nname: spell\n'}",aleksey
+95,cnn-cifar10-from-local,,t4,True,{'uploads/neural-style-imgs/antelope.jpg': '/spell/antelope.jpg'},{},aleksey
+100,private-pip-test,,cpu,True,,{},aleksey

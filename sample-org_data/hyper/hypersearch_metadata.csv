@@ -1,0 +1,7 @@
+id,num_runs,command,created_at,ended_at,creator
+3,30,spell hyper bayesian --num-runs 30 --parallel-runs 3 --metric keras/val_acc --param conv2_filter=16:128:linear:int --param conv2_kernel=2:8:linear:int --param dense_layer=64:1024:linear:int --param dropout_3=0.001:0.999:linear:float 'python cifar10_cnn.py --epochs 25 --conv2_filter :conv2_filter: --conv2_kernel :conv2_kernel: --dense_layer :dense_layer: --dropout_3 :dropout_3:',2019-08-26 15:42:02.910723+00:00,2019-08-26 18:37:09.060282+00:00,ianv
+24,6,"spell hyper grid --param batch_size=16,32,64 --param conv2_filters=32,64 'python models/train.py --epochs 20 --batch_size :batch_size: --conv2_filters :conv2_filters:'",2020-08-11 00:13:18.127892+00:00,2020-08-11 00:22:06.516385+00:00,aleksey
+25,6,"spell hyper grid --param batch_size=16,32,64 --param conv2_filters=32,64 'python models/train.py --epochs 20 --batch_size :batch_size: --conv2_filters :conv2_filters:'",2021-01-13 20:10:23.795461+00:00,2021-01-13 20:42:36.110249+00:00,trey
+27,6,"spell hyper grid --param batch_size=16,32,64 --param conv2_filters=32,64 'python models/train.py --epochs 20 --batch_size :batch_size: --conv2_filters :conv2_filters:'",2021-02-05 20:43:43.996545+00:00,2021-02-05 21:27:10.950276+00:00,trey
+29,2,"spell hyper grid --param epoches=5,10 'python train.py --epoches :epoches:'",2021-09-24 19:19:49.253211+00:00,2021-09-24 19:24:33.147508+00:00,kevin
+30,3,"spell hyper grid --param epochs=5,10,20 'python train.py --epochs :epochs:'",2021-09-24 19:33:34.140804+00:00,2021-09-24 19:45:18.522073+00:00,kevin
